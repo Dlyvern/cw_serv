@@ -1,0 +1,469 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (action_interface) JobQueued: {'identifier': 'action_interface', 'dependencies': OrderedDict()}
+[0.000198] (cw_serv) JobQueued: {'identifier': 'cw_serv', 'dependencies': OrderedDict([('action_interface', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface')])}
+[0.000213] (action_interface) JobStarted: {'identifier': 'action_interface'}
+[0.051699] (action_interface) JobProgress: {'identifier': 'action_interface', 'progress': 'cmake'}
+[0.051758] (action_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/dlyvern/Projects/cw_serv_ws/src/action_interface', '-DCMAKE_INSTALL_PREFIX=/home/dlyvern/Projects/cw_serv_ws/install/action_interface'], 'cwd': '/home/dlyvern/Projects/cw_serv_ws/build/action_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'dlyvern'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dlyvern/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/myPC:@/tmp/.ICE-unix/2479,unix/myPC:/tmp/.ICE-unix/2479'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e3c4945_292c_4dd8_8143_ba2b0c9d6ded'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3F7JE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/cw_serv_ws/build/action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099682] (-) TimerEvent: {}
+[0.153427] (action_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199827] (-) TimerEvent: {}
+[0.201657] (action_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.208905] (action_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299996] (-) TimerEvent: {}
+[0.305058] (action_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.309841] (action_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.310297] (action_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.310861] (action_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.313055] (action_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.366394] (action_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.370852] (action_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.371054] (action_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.371271] (action_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.372511] (action_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400129] (-) TimerEvent: {}
+[0.500404] (-) TimerEvent: {}
+[0.596343] (action_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600541] (-) TimerEvent: {}
+[0.647633] (action_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.649245] (action_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.652513] (action_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.675444] (action_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700689] (-) TimerEvent: {}
+[0.800969] (-) TimerEvent: {}
+[0.901250] (-) TimerEvent: {}
+[0.906347] (action_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.001335] (-) TimerEvent: {}
+[1.049841] (action_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101444] (-) TimerEvent: {}
+[1.201806] (-) TimerEvent: {}
+[1.219205] (action_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.235659] (action_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.236963] (action_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.254699] (action_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.254809] (action_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.254850] (action_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.254886] (action_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.268245] (action_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.298344] (action_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.301888] (-) TimerEvent: {}
+[1.321601] (action_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.321939] (action_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.322004] (action_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.323387] (action_interface) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.325727] (action_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.327093] (action_interface) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.335538] (action_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.335632] (action_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.336930] (action_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.338720] (action_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.356523] (action_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.357880] (action_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/dlyvern/Projects/cw_serv_ws/build/action_interface\n'}
+[1.363329] (action_interface) CommandEnded: {'returncode': 0}
+[1.363716] (action_interface) JobProgress: {'identifier': 'action_interface', 'progress': 'build'}
+[1.363734] (action_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dlyvern/Projects/cw_serv_ws/build/action_interface', '--', '-j12', '-l12'], 'cwd': '/home/dlyvern/Projects/cw_serv_ws/build/action_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'dlyvern'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dlyvern/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/myPC:@/tmp/.ICE-unix/2479,unix/myPC:/tmp/.ICE-unix/2479'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e3c4945_292c_4dd8_8143_ba2b0c9d6ded'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3F7JE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/cw_serv_ws/build/action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.387458] (action_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.394295] (action_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.399631] (action_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_action_interface\n'}
+[1.401982] (-) TimerEvent: {}
+[1.502228] (-) TimerEvent: {}
+[1.541196] (action_interface) StdoutLine: {'line': b'running egg_info\n'}
+[1.541888] (action_interface) StdoutLine: {'line': b'creating action_interface.egg-info\n'}
+[1.552711] (action_interface) StdoutLine: {'line': b'writing action_interface.egg-info/PKG-INFO\n'}
+[1.552862] (action_interface) StdoutLine: {'line': b'writing dependency_links to action_interface.egg-info/dependency_links.txt\n'}
+[1.552938] (action_interface) StdoutLine: {'line': b'writing top-level names to action_interface.egg-info/top_level.txt\n'}
+[1.553013] (action_interface) StdoutLine: {'line': b"writing manifest file 'action_interface.egg-info/SOURCES.txt'\n"}
+[1.585323] (action_interface) StdoutLine: {'line': b"reading manifest file 'action_interface.egg-info/SOURCES.txt'\n"}
+[1.585690] (action_interface) StdoutLine: {'line': b"writing manifest file 'action_interface.egg-info/SOURCES.txt'\n"}
+[1.602330] (-) TimerEvent: {}
+[1.602606] (action_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_action_interface_egg\n'}
+[1.686127] (action_interface) StdoutLine: {'line': b'[  6%] Built target action_interface__cpp\n'}
+[1.691995] (action_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.692144] (action_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.692191] (action_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.696317] (action_interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/action_interface__rosidl_generator_c.dir/rosidl_generator_c/action_interface/action/detail/cmd__functions.c.o\x1b[0m\n'}
+[1.702414] (-) TimerEvent: {}
+[1.791977] (action_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaction_interface__rosidl_generator_c.so\x1b[0m\n'}
+[1.802519] (-) TimerEvent: {}
+[1.816471] (action_interface) StdoutLine: {'line': b'[ 22%] Built target action_interface__rosidl_generator_c\n'}
+[1.823083] (action_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.823283] (action_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.823354] (action_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.902642] (-) TimerEvent: {}
+[1.907581] (action_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_interface/action/cmd__type_support.cpp.o\x1b[0m\n'}
+[1.950596] (action_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_interface/action/detail/cmd__type_support.cpp.o\x1b[0m\n'}
+[1.987313] (action_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/action_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_interface/action/detail/dds_fastrtps/cmd__type_support.cpp.o\x1b[0m\n'}
+[2.002745] (-) TimerEvent: {}
+[2.051962] (action_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/action_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_interface/action/cmd__type_support.cpp.o\x1b[0m\n'}
+[2.085536] (action_interface) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.102885] (-) TimerEvent: {}
+[2.115500] (action_interface) StdoutLine: {'line': b'[ 48%] Built target action_interface__rosidl_typesupport_c\n'}
+[2.118396] (action_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c.o\x1b[0m\n'}
+[2.126110] (action_interface) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/action_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_interface/action/detail/cmd__type_support_c.cpp.o\x1b[0m\n'}
+[2.153706] (action_interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libaction_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.175394] (action_interface) StdoutLine: {'line': b'[ 58%] Built target action_interface__rosidl_typesupport_introspection_c\n'}
+[2.203020] (-) TimerEvent: {}
+[2.275053] (action_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.302077] (action_interface) StdoutLine: {'line': b'[ 61%] Built target action_interface__rosidl_typesupport_cpp\n'}
+[2.303090] (-) TimerEvent: {}
+[2.372436] (action_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.374283] (action_interface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.403258] (-) TimerEvent: {}
+[2.415168] (action_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.427886] (action_interface) StdoutLine: {'line': b'[ 70%] Built target action_interface__rosidl_typesupport_introspection_cpp\n'}
+[2.430210] (action_interface) StdoutLine: {'line': b'[ 70%] Built target action_interface__rosidl_typesupport_fastrtps_c\n'}
+[2.462828] (action_interface) StdoutLine: {'line': b'[ 70%] Built target action_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[2.474336] (action_interface) StdoutLine: {'line': b'[ 70%] Built target action_interface\n'}
+[2.486578] (action_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.503383] (-) TimerEvent: {}
+[2.603662] (-) TimerEvent: {}
+[2.703975] (-) TimerEvent: {}
+[2.804269] (-) TimerEvent: {}
+[2.904580] (-) TimerEvent: {}
+[2.980119] (action_interface) StdoutLine: {'line': b'[ 74%] Built target action_interface__py\n'}
+[2.991500] (action_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_interface__rosidl_generator_py.dir/rosidl_generator_py/action_interface/action/_cmd_s.c.o\x1b[0m\n'}
+[3.004695] (-) TimerEvent: {}
+[3.105062] (-) TimerEvent: {}
+[3.107478] (action_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interface/libaction_interface__rosidl_generator_py.so\x1b[0m\n'}
+[3.133360] (action_interface) StdoutLine: {'line': b'[ 80%] Built target action_interface__rosidl_generator_py\n'}
+[3.146198] (action_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.146380] (action_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.146439] (action_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.205270] (-) TimerEvent: {}
+[3.218914] (action_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interface/action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.219060] (action_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interface/action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.219105] (action_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interface/action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.243742] (action_interface) StdoutLine: {'line': b'[100%] Built target action_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.243924] (action_interface) StdoutLine: {'line': b'[100%] Built target action_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[3.243982] (action_interface) StdoutLine: {'line': b'[100%] Built target action_interface__rosidl_typesupport_c__pyext\n'}
+[3.251078] (action_interface) CommandEnded: {'returncode': 0}
+[3.280805] (action_interface) JobProgress: {'identifier': 'action_interface', 'progress': 'install'}
+[3.286332] (action_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dlyvern/Projects/cw_serv_ws/build/action_interface'], 'cwd': '/home/dlyvern/Projects/cw_serv_ws/build/action_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'dlyvern'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dlyvern/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/myPC:@/tmp/.ICE-unix/2479,unix/myPC:/tmp/.ICE-unix/2479'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e3c4945_292c_4dd8_8143_ba2b0c9d6ded'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3F7JE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/cw_serv_ws/build/action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.290869] (action_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.291027] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/ament_index/resource_index/rosidl_interfaces/action_interface\n'}
+[3.291075] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[3.291121] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[3.291190] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[3.291228] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.h\n'}
+[3.291281] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__functions.h\n'}
+[3.291319] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__functions.c\n'}
+[3.291371] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__type_support.h\n'}
+[3.291408] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.h\n'}
+[3.291459] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[3.291494] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.291536] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/environment/library_path.sh\n'}
+[3.291581] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/environment/library_path.dsv\n'}
+[3.291666] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_c.so\n'}
+[3.291851] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_c.so" to ""\n'}
+[3.291904] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[3.291957] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[3.292000] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[3.292041] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[3.292077] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[3.292112] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.292161] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[3.292243] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.292296] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[3.292333] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[3.292369] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[3.292420] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h\n'}
+[3.292458] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__type_support.c\n'}
+[3.292506] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[3.292558] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.292594] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_introspection_c.so\n'}
+[3.292668] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.292716] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_c.so\n'}
+[3.292831] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_c.so" to ""\n'}
+[3.292885] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[3.292920] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[3.292956] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp\n'}
+[3.293009] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[3.293043] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp\n'}
+[3.293078] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp\n'}
+[3.293126] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp\n'}
+[3.293187] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[3.293247] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[3.293291] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[3.293339] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.293383] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/dds_fastrtps\n'}
+[3.293417] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[3.293451] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.293486] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.293564] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.293618] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[3.293655] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[3.293691] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[3.293742] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__type_support.cpp\n'}
+[3.293777] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.293825] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[3.293940] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.293987] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_cpp.so\n'}
+[3.294114] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[3.294161] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/environment/pythonpath.sh\n'}
+[3.294208] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/environment/pythonpath.dsv\n'}
+[3.294256] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info\n'}
+[3.294307] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.294352] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.294394] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.294439] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.294485] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface\n'}
+[3.294531] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/libaction_interface__rosidl_generator_py.so\n'}
+[3.294593] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.294651] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/_action_interface_s.ep.rosidl_typesupport_c.c\n'}
+[3.294714] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action\n'}
+[3.294759] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/_cmd_s.c\n'}
+[3.294812] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/__init__.py\n'}
+[3.294857] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/_cmd.py\n'}
+[3.294921] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.294982] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.295042] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/_action_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.295106] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/__init__.py\n'}
+[3.295152] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.305320] (-) TimerEvent: {}
+[3.323846] (action_interface) StdoutLine: {'line': b"Listing '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface'...\n"}
+[3.323963] (action_interface) StdoutLine: {'line': b"Compiling '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/__init__.py'...\n"}
+[3.324002] (action_interface) StdoutLine: {'line': b"Listing '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action'...\n"}
+[3.324034] (action_interface) StdoutLine: {'line': b"Compiling '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/__init__.py'...\n"}
+[3.324067] (action_interface) StdoutLine: {'line': b"Compiling '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/_cmd.py'...\n"}
+[3.326925] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.327108] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.327179] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.327337] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.327408] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.327554] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.327610] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_py.so\n'}
+[3.327650] (action_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_py.so" to ""\n'}
+[3.327706] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/action/Cmd.idl\n'}
+[3.327760] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/action/Cmd.action\n'}
+[3.327801] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/ament_index/resource_index/package_run_dependencies/action_interface\n'}
+[3.327851] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/ament_index/resource_index/parent_prefix_path/action_interface\n'}
+[3.327902] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/environment/ament_prefix_path.sh\n'}
+[3.327951] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/environment/ament_prefix_path.dsv\n'}
+[3.328002] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/environment/path.sh\n'}
+[3.328046] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/environment/path.dsv\n'}
+[3.328092] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/local_setup.bash\n'}
+[3.328141] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/local_setup.sh\n'}
+[3.328199] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/local_setup.zsh\n'}
+[3.328251] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/local_setup.dsv\n'}
+[3.328303] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/package.dsv\n'}
+[3.328375] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/ament_index/resource_index/packages/action_interface\n'}
+[3.328450] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_cExport.cmake\n'}
+[3.328511] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.328577] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.328636] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.328700] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.328758] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.328825] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cExport.cmake\n'}
+[3.328885] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.328949] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_cppExport.cmake\n'}
+[3.329011] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.329068] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.329137] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.329217] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.329292] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cppExport.cmake\n'}
+[3.329350] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.329413] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_pyExport.cmake\n'}
+[3.329474] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.329531] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[3.329585] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.329646] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.329703] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.329763] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.329818] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.329873] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.329928] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interfaceConfig.cmake\n'}
+[3.329976] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interfaceConfig-version.cmake\n'}
+[3.330025] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/package.xml\n'}
+[3.331587] (action_interface) CommandEnded: {'returncode': 0}
+[3.405442] (-) TimerEvent: {}
+[3.469371] (action_interface) JobEnded: {'identifier': 'action_interface', 'rc': 0}
+[3.469758] (cw_serv) JobStarted: {'identifier': 'cw_serv'}
+[3.505051] (cw_serv) JobProgress: {'identifier': 'cw_serv', 'progress': 'cmake'}
+[3.505546] (cw_serv) Command: {'cmd': ['/usr/bin/cmake', '/home/dlyvern/Projects/cw_serv_ws/src/cw_serv', '-DCMAKE_INSTALL_PREFIX=/home/dlyvern/Projects/cw_serv_ws/install/cw_serv'], 'cwd': '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'dlyvern'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dlyvern/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/myPC:@/tmp/.ICE-unix/2479,unix/myPC:/tmp/.ICE-unix/2479'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e3c4945_292c_4dd8_8143_ba2b0c9d6ded'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3F7JE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble')]), 'shell': False}
+[3.505988] (-) TimerEvent: {}
+[3.548500] (cw_serv) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.604172] (cw_serv) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.606078] (-) TimerEvent: {}
+[3.608243] (cw_serv) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.673771] (cw_serv) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.678368] (cw_serv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.678561] (cw_serv) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.678792] (cw_serv) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.681656] (cw_serv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.706268] (-) TimerEvent: {}
+[3.753014] (cw_serv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.759001] (cw_serv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.759175] (cw_serv) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.759361] (cw_serv) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.765420] (cw_serv) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[3.766675] (cw_serv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.806450] (-) TimerEvent: {}
+[3.906769] (-) TimerEvent: {}
+[3.994293] (cw_serv) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[4.006906] (-) TimerEvent: {}
+[4.044476] (cw_serv) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.068120] (cw_serv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.070685] (cw_serv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.075341] (cw_serv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.083159] (cw_serv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.094206] (cw_serv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.107041] (-) TimerEvent: {}
+[4.134476] (cw_serv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.135910] (cw_serv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.192681] (cw_serv) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.207186] (-) TimerEvent: {}
+[4.209486] (cw_serv) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.238942] (cw_serv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.249082] (cw_serv) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.307396] (-) TimerEvent: {}
+[4.313224] (cw_serv) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.313437] (cw_serv) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.393295] (cw_serv) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.394017] (cw_serv) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.407509] (-) TimerEvent: {}
+[4.490310] (cw_serv) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[4.507649] (-) TimerEvent: {}
+[4.547765] (cw_serv) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.587282] (cw_serv) StdoutLine: {'line': b'-- Found action_interface: 0.0.0 (/home/dlyvern/Projects/cw_serv_ws/install/action_interface/share/action_interface/cmake)\n'}
+[4.607808] (-) TimerEvent: {}
+[4.638634] (cw_serv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.688894] (cw_serv) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.689028] (cw_serv) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dlyvern/Projects/cw_serv_ws/src/cw_serv/include/cw_serv>\n'}
+[4.689070] (cw_serv) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.690585] (cw_serv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.694733] (cw_serv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.694799] (cw_serv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.695410] (cw_serv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.696113] (cw_serv) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.707945] (-) TimerEvent: {}
+[4.808291] (-) TimerEvent: {}
+[4.823830] (cw_serv) StdoutLine: {'line': b'-- Generating done\n'}
+[4.825429] (cw_serv) StdoutLine: {'line': b'-- Build files have been written to: /home/dlyvern/Projects/cw_serv_ws/build/cw_serv\n'}
+[4.833219] (cw_serv) CommandEnded: {'returncode': 0}
+[4.834382] (cw_serv) JobProgress: {'identifier': 'cw_serv', 'progress': 'build'}
+[4.834417] (cw_serv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv', '--', '-j12', '-l12'], 'cwd': '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'dlyvern'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dlyvern/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/myPC:@/tmp/.ICE-unix/2479,unix/myPC:/tmp/.ICE-unix/2479'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e3c4945_292c_4dd8_8143_ba2b0c9d6ded'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3F7JE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble')]), 'shell': False}
+[4.872432] (cw_serv) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target cw_serv\x1b[0m\n'}
+[4.908430] (-) TimerEvent: {}
+[5.008820] (-) TimerEvent: {}
+[5.109207] (-) TimerEvent: {}
+[5.188771] (cw_serv) StdoutLine: {'line': b'[  7%] Built target cw_serv_autogen\n'}
+[5.202718] (cw_serv) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o\x1b[0m\n'}
+[5.203108] (cw_serv) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.203349] (cw_serv) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o\x1b[0m\n'}
+[5.203447] (cw_serv) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o\x1b[0m\n'}
+[5.203526] (cw_serv) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionServer.cpp.o\x1b[0m\n'}
+[5.203624] (cw_serv) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/cw_structs/Command.cpp.o\x1b[0m\n'}
+[5.203779] (cw_serv) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o\x1b[0m\n'}
+[5.203954] (cw_serv) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o\x1b[0m\n'}
+[5.204119] (cw_serv) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o\x1b[0m\n'}
+[5.204611] (cw_serv) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o\x1b[0m\n'}
+[5.204754] (cw_serv) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/Packet.cpp.o\x1b[0m\n'}
+[5.209322] (-) TimerEvent: {}
+[5.309801] (-) TimerEvent: {}
+[5.410311] (-) TimerEvent: {}
+[5.510720] (-) TimerEvent: {}
+[5.611157] (-) TimerEvent: {}
+[5.711590] (-) TimerEvent: {}
+[5.811952] (-) TimerEvent: {}
+[5.912379] (-) TimerEvent: {}
+[6.012837] (-) TimerEvent: {}
+[6.113311] (-) TimerEvent: {}
+[6.213723] (-) TimerEvent: {}
+[6.314123] (-) TimerEvent: {}
+[6.414511] (-) TimerEvent: {}
+[6.514929] (-) TimerEvent: {}
+[6.615334] (-) TimerEvent: {}
+[6.715754] (-) TimerEvent: {}
+[6.816152] (-) TimerEvent: {}
+[6.916538] (-) TimerEvent: {}
+[7.016922] (-) TimerEvent: {}
+[7.117319] (-) TimerEvent: {}
+[7.217694] (-) TimerEvent: {}
+[7.318092] (-) TimerEvent: {}
+[7.418562] (-) TimerEvent: {}
+[7.519114] (-) TimerEvent: {}
+[7.619559] (-) TimerEvent: {}
+[7.719985] (-) TimerEvent: {}
+[7.820407] (-) TimerEvent: {}
+[7.920895] (-) TimerEvent: {}
+[8.021359] (-) TimerEvent: {}
+[8.121754] (-) TimerEvent: {}
+[8.222135] (-) TimerEvent: {}
+[8.322587] (-) TimerEvent: {}
+[8.422942] (-) TimerEvent: {}
+[8.523347] (-) TimerEvent: {}
+[8.623719] (-) TimerEvent: {}
+[8.724081] (-) TimerEvent: {}
+[8.824455] (-) TimerEvent: {}
+[8.924915] (-) TimerEvent: {}
+[9.025298] (-) TimerEvent: {}
+[9.125625] (-) TimerEvent: {}
+[9.225937] (-) TimerEvent: {}
+[9.326293] (-) TimerEvent: {}
+[9.426690] (-) TimerEvent: {}
+[9.527123] (-) TimerEvent: {}
+[9.627500] (-) TimerEvent: {}
+[9.727869] (-) TimerEvent: {}
+[9.828233] (-) TimerEvent: {}
+[9.928596] (-) TimerEvent: {}
+[10.028942] (-) TimerEvent: {}
+[10.129265] (-) TimerEvent: {}
+[10.229620] (-) TimerEvent: {}
+[10.329967] (-) TimerEvent: {}
+[10.430347] (-) TimerEvent: {}
+[10.530676] (-) TimerEvent: {}
+[10.631009] (-) TimerEvent: {}
+[10.731359] (-) TimerEvent: {}
+[10.831695] (-) TimerEvent: {}
+[10.932013] (-) TimerEvent: {}
+[11.032328] (-) TimerEvent: {}
+[11.132656] (-) TimerEvent: {}
+[11.232978] (-) TimerEvent: {}
+[11.333302] (-) TimerEvent: {}
+[11.433639] (-) TimerEvent: {}
+[11.533953] (-) TimerEvent: {}
+[11.634275] (-) TimerEvent: {}
+[11.734604] (-) TimerEvent: {}
+[11.834945] (-) TimerEvent: {}
+[11.935269] (-) TimerEvent: {}
+[12.035585] (-) TimerEvent: {}
+[12.135910] (-) TimerEvent: {}
+[12.236261] (-) TimerEvent: {}
+[12.336612] (-) TimerEvent: {}
+[12.412042] (cw_serv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cw_serv\x1b[0m\n'}
+[12.436774] (-) TimerEvent: {}
+[12.537110] (-) TimerEvent: {}
+[12.637420] (-) TimerEvent: {}
+[12.737782] (-) TimerEvent: {}
+[12.838204] (-) TimerEvent: {}
+[12.938631] (-) TimerEvent: {}
+[13.038982] (-) TimerEvent: {}
+[13.139327] (-) TimerEvent: {}
+[13.239649] (-) TimerEvent: {}
+[13.304330] (cw_serv) StdoutLine: {'line': b'[100%] Built target cw_serv\n'}
+[13.310667] (cw_serv) CommandEnded: {'returncode': 0}
+[13.339838] (-) TimerEvent: {}
+[13.373576] (cw_serv) JobProgress: {'identifier': 'cw_serv', 'progress': 'install'}
+[13.375803] (cw_serv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv'], 'cwd': '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'dlyvern'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dlyvern/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/myPC:@/tmp/.ICE-unix/2479,unix/myPC:/tmp/.ICE-unix/2479'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e3c4945_292c_4dd8_8143_ba2b0c9d6ded'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3F7JE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble')]), 'shell': False}
+[13.393655] (cw_serv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.394091] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv\n'}
+[13.398971] (cw_serv) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv" to ""\n'}
+[13.399353] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/package_run_dependencies/cw_serv\n'}
+[13.399442] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/parent_prefix_path/cw_serv\n'}
+[13.399532] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.sh\n'}
+[13.399590] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.dsv\n'}
+[13.399645] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.sh\n'}
+[13.399683] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.dsv\n'}
+[13.399723] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.bash\n'}
+[13.399781] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.sh\n'}
+[13.399822] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.zsh\n'}
+[13.399878] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.dsv\n'}
+[13.399916] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/package.dsv\n'}
+[13.399968] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/packages/cw_serv\n'}
+[13.400020] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/CMakeConfix.cmake\n'}
+[13.400071] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig.cmake\n'}
+[13.400124] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig-version.cmake\n'}
+[13.400175] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/package.xml\n'}
+[13.401289] (cw_serv) CommandEnded: {'returncode': 0}
+[13.439908] (-) TimerEvent: {}
+[13.506704] (cw_serv) JobEnded: {'identifier': 'cw_serv', 'rc': 0}
+[13.507141] (-) EventReactorShutdown: {}

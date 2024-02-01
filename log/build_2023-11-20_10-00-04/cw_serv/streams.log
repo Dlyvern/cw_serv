@@ -1,0 +1,31 @@
+[0.037s] Invoking command in '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.109s] [  7%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.536s] [  7%] Built target cw_serv_autogen
+[0.547s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.571s] [ 15%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.584s] [ 23%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.584s] [ 30%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[3.837s] [ 38%] [32m[1mLinking CXX executable cw_serv[0m
+[4.765s] [100%] Built target cw_serv
+[4.772s] Invoked command in '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv' returned '0': AMENT_PREFIX_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/cw_serv_ws/build/cw_serv -- -j12 -l12
+[4.797s] Invoking command in '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlyvern/Projects/cw_serv_ws/build/cw_serv
+[4.802s] -- Install configuration: ""
+[4.803s] -- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv
+[4.806s] -- Set runtime path of "/home/dlyvern/Projects/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv" to ""
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/package_run_dependencies/cw_serv
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/parent_prefix_path/cw_serv
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.sh
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.dsv
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.sh
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.dsv
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.bash
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.sh
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.zsh
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.dsv
+[4.806s] -- Installing: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/package.dsv
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/packages/cw_serv
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/CMakeConfix.cmake
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig.cmake
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig-version.cmake
+[4.806s] -- Up-to-date: /home/dlyvern/Projects/cw_serv_ws/install/cw_serv/share/cw_serv/package.xml
+[4.807s] Invoked command in '/home/dlyvern/Projects/cw_serv_ws/build/cw_serv' returned '0': AMENT_PREFIX_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlyvern/Projects/cw_serv_ws/build/cw_serv
